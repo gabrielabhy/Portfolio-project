@@ -1,9 +1,18 @@
-p {
-  font-family: "Karla", sans-serif;
-  color: #353432;
+:root {
+  --background-color: #f5f5f5;
+  --font-color: #353432;
+  --highlight-color: #838171;
+  --secondary-color: #919c9d;
+  --text-font: "Karla", sans-serif;
+  --title-font: "Tenor Sans", sans-serif;
 }
 
-h1 {
-  font-family: "Tenor Sans", sans-serif;
-  color: #353432;
+.navbar {
+  margin: 0 50px;
+}
+
+hr.line {
+  margin: 10px 50px;
+  border-top: #353432 2px solid;
+  border-radius: 10px;
 }
