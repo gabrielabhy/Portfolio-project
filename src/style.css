@@ -93,3 +93,22 @@ hr.line {
   background: #838171;
   color: #F5F5F5;
 }
+
+.footer {
+  
+}
+
+.footer p {
+  font-size: 24px;
+  padding: 50px 10px;
+}
+
+.links {
+  padding: 50px 10px;
+}
+
+.links a {
+  padding-right: 10px;
+  text-decoration: none;
+  color: #838171;
+}
