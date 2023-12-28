@@ -10,31 +10,50 @@
 
 .navbar {
   margin: 0 50px;
+  background-color: #ffffff;
+}
+
+.main-title {
+  font-family: var(--title-font);
+  font-size: 36px;
 }
 
 hr.line {
   margin: 10px 50px;
-  border-top: #353432 2px solid;
+  border-top: #353432 1px solid;
   border-radius: 10px;
 }
 
 .presentation {
   text-align: center;
-  font-size: 24px;
-  margin: 45px;
+  font-size: 22px;
+  margin: 50px;
 }
 
 .hero {
   background-color: #e6dfda;
   padding: 40px;
+  width: 100%;
 }
 
 .vertical-line {
-  border-left: 2px solid #353432;
-  height: 500px;
-
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
-.interior {
+.vert-line {
+  width: 2px;
+  height: 500px;
+  margin: 0;
+  border: #838171 1px solid;
+}
+
+.interior h1 {
+  font-family: var(--title-font);
+  font-size: 48px;
+}
+
+.web-dev h1 {
+  font-family: var(--title-font);
+  font-size: 48px;
 }
