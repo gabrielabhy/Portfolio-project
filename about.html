@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
@@ -42,10 +42,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link" href="/about.html"
-              >Home</a
+            <a class="nav-link" href="/index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="/about.html"
+              >About</a
             >
-            <a class="nav-link  active" aria-current="page" href="/about.html">About</a>
             <a class="nav-link" href="/interior-design.html">Interior Design</a>
             <a class="nav-link" href="/web-dev.html">Web Development</a>
             <a class="nav-link" href="/contact.html">Contact</a>
@@ -54,6 +54,22 @@
       </div>
     </nav>
     <hr class="line" />
+    <div class="container-fluid about-body">
+      <div class="row">
+        <div class="col-6 text-end about-me align-items-center">
+          <h2 class="about-title">Hi, I'm Gabi</h2>
+          <p>
+            I'm a full-time interior designer, part-time web developer based in Santa
+            Catarina, Brazil. As an interior designer, I currently work on an office
+            during my 9-5 and also take on freelance work. And recently I've been
+            learning to code and acquiring skills on front-end development. I am
+            skilled on HTML, CSS, Bootstrap and JavaScript.
+          </p>
+          <a href="/contact.html" class="to-contact">Let's work together!</a>
+        </div>
+        <img src="/img/profile-pic.JPG" alt="it's me, hi!" class="col-6 img-fluid align-items-center profile-pic">
+      </div>
+    </div>
     <footer class="footer container">
       <div class="row">
         <p class="col-6 text-end">Get in touch!</p>
@@ -85,5 +101,5 @@
         </div>
       </div>
     </footer>
-</body>
+  </body>
 </html>
