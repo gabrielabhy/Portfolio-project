@@ -120,7 +120,9 @@ img {
 .about-body {
   background-color: #f5f5f5;
   padding: 50px 0;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .about-me {
   padding: 60px 30px 60px 120px;
@@ -142,10 +144,8 @@ img {
 }
 
 .profile-pic {
-  max-width: 300px;
-  max-height: 400px;
-  object-fit: cover;
-  object-position: bottom;
+  max-width: 320px;
+  max-height: 450px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -158,6 +158,12 @@ img {
   .line-mobile {
     margin: 50px;
     border: #838171 1px solid;
+  }
+  .about-me {
+    padding-right: 50px;
+  }
+  .profile-pic {
+    margin-left: 50px;
   }
   }
 
