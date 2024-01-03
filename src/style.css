@@ -148,7 +148,30 @@ img {
   max-height: 450px;
 }
 
-.
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.cta-1 {
+  font-size: 30px;
+  color: #838171;
+  font-weight: 200;
+  font-family: var(--text-font);
+}
+
+.cta-2 {
+  font-size: 36px;
+  color: #353432;
+  font-family: var(--title-font);
+}
+
+.contact-main {
+  background-color: #F5F5F5;
+}
 
 @media only screen and (max-width: 600px) {
   .main-title {
