@@ -144,4 +144,25 @@ img {
 .profile-pic {
   max-width: 300px;
   max-height: 400px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-title {
+  font-size: 26px;
+  }
+  .vert-line {
+    display: none;
+  }
+  .line-mobile {
+    margin: 50px;
+    border: #838171 1px solid;
+  }
+  }
+
+@media only screen and (min-width: 601px) {
+  .line-mobile {
+    display: none;
+  }
 }
