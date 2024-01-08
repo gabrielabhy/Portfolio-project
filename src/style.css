@@ -13,12 +13,6 @@ body {
   color: var(--font-color);
 }
 
-h1 {
-  font-family: var(--title-font);
-  font-size: 48px;
-  margin: 40px 0;
-}
-
 h2 {
   font-family: var(--text-font);
   font-size: 32px;
@@ -64,6 +58,18 @@ hr.line {
   background-color: #e6dfda;
   padding: 40px;
   width: 100%;
+}
+
+.interior h1 {
+  font-family: var(--title-font);
+  font-size: 48px;
+  margin: 40px 0;
+}
+
+.web-dev h1 {
+  font-family: var(--title-font);
+  font-size: 48px;
+  margin: 40px 0;
 }
 
 .vertical-line {
@@ -204,6 +210,18 @@ footer img {
 
 .contact-main a:hover {
   color: #838171;
+}
+
+.work-title {
+  font-family: var(--title-font);
+  font-size: 36px;
+  color: var(--font-color);
+  padding: 50px 0;
+}
+
+.work-body {
+  background-color: var(--background-color);
+  padding: 50px;
 }
 
 @media only screen and (max-width: 600px) {
