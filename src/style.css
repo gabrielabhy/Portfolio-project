@@ -251,6 +251,22 @@ footer img {
   text-decoration: underline;
 }
 
+.skills {
+  padding: 50px;
+}
+
+.skill {
+  padding: 0 0 30px 0;
+}
+
+.skill img {
+  transition: 250ms ease;
+}
+
+.skills img:hover {
+  scale: 1.1;
+}
+
 @media only screen and (max-width: 600px) {
   .main-title {
     font-size: 26px;
