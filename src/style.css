@@ -267,6 +267,40 @@ footer img {
   scale: 1.1;
 }
 
+.services {
+  background-color: var(--background-color);
+  padding: 50px;
+}
+
+.services h1 {
+  font-size: 32px;
+  font-family: var(--title-font);
+  color: var(--font-color);
+}
+
+.services h3 {
+  font-size: 22px;
+  color: var(--highlight-color);
+  font-weight: 200;
+}
+
+.service {
+  background-color: white;
+  padding: 30px 20px;
+  margin: 30px 30px;
+  max-width: 300px;
+}
+
+.service h2 {
+  font-size: 24px;
+  margin: 0 0 20px;
+}
+
+.service p {
+  font-size: 20px;
+  color: var(--highlight-color);
+}
+
 @media only screen and (max-width: 600px) {
   .main-title {
     font-size: 26px;
