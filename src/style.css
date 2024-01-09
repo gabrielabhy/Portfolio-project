@@ -390,7 +390,16 @@ footer img {
 .cta-insta {
   padding: 50px;
   font-family: var(--title-font);
-  font-size: 24px;
+  font-size: 22px;
+}
+
+.cta-insta a {
+  color: #353432;
+  transition: 250ms ease-in-out;
+}
+
+.cta-insta a:hover {
+  color: #838171;
 }
 
 @media only screen and (max-width: 1030px) {
